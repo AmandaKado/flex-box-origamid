@@ -31,5 +31,5 @@ section#align-content {
 div.item {
     background-color: lightgreen;
     margin: 5px;
-    flex-grow: 1;
+    flex: 0 1 auto; /*grow shrink basis*/
 }
