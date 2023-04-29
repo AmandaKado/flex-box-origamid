@@ -31,5 +31,29 @@ section#align-content {
 div.item {
     background-color: lightgreen;
     margin: 5px;
-    flex: 0 1 auto; /*grow shrink basis*/
+    flex: 1 0 150px; /*grow shrink basis*/
+}
+
+section > div.order1 {
+    order: 1;
+}
+
+section > div.order2 {
+    order: 2;
+}
+
+section > div.order3 {
+    order: 3;
+}
+
+section > div.order4 {
+    order: 4;
+}
+
+section > div.order5 {
+    order: 5;
+}
+
+section > div.order6 {
+    order: 6;
 }
